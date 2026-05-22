@@ -17,14 +17,14 @@ const Marcas = () => {
         </p>
       </div>
 
-      <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-14 flex flex-wrap justify-center gap-5">
         {brands.map((b) => (
           <div
             key={b}
-            className="relative bg-surface-2 border border-border rounded-lg h-32 flex items-center justify-center text-center px-4 shadow-elevated hover:border-primary transition-colors group"
+            className="group relative w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.875rem)] lg:max-w-[340px] bg-surface-2 border border-border rounded-lg h-32 flex items-center justify-center text-center px-4 shadow-elevated transition-all duration-300 ease-in-out hover:bg-[#e00000] hover:border-[#e00000] hover:-translate-y-[3px] hover:shadow-[0_12px_28px_rgba(224,0,0,0.28)]"
           >
-            <span className="absolute top-3 left-3 w-1.5 h-1.5 rounded-full bg-primary group-hover:shadow-red-glow" />
-            <span className="font-display text-xl md:text-2xl font-bold uppercase tracking-wider text-foreground">
+            <span className="absolute top-3 left-3 w-1.5 h-1.5 rounded-full bg-primary transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:shadow-[0_0_8px_rgba(255,255,255,0.6)]" />
+            <span className="font-display text-xl md:text-2xl font-bold uppercase tracking-wider text-foreground transition-colors duration-300 ease-in-out group-hover:text-white">
               {b}
             </span>
           </div>

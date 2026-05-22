@@ -65,9 +65,12 @@ const Contato = () => {
           <div className="mt-6 overflow-hidden rounded-lg border border-border shadow-elevated">
             <iframe
               title="Localização Pulso"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15764.215584507008!2d-57.5186638!3d-11.724778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9373e9f8e8e8e8e8%3A0xe8e8e8e8e8e8e8e8!2sRua%20Mar%C3%ADlia%2C%201098%20-%20Jardim%20Alvorada%2C%20Juara%20-%20MT%2C%2078575-000!5e0!3m2!1spt-BR!2sbr!4v1714500000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.56429489594254!2d-57.50926029278838!3d-11.259297630310437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93af7177b7960d55%3A0x90357b29084b9cd5!2sR.%20Marilia%2C%201098%20-%20Juara%2C%20MT%2C%2078575-000!5e0!3m2!1spt-BR!2sbr!4v1779471564968!5m2!1spt-BR!2sbr"
               className="w-full h-64 grayscale-[40%] contrast-110"
+              style={{ border: 0 }}
+              allowFullScreen
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
         </div>

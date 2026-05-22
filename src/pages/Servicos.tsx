@@ -1,4 +1,4 @@
-import { Wrench, Satellite, Sprout, Radio, Gauge, Navigation, Scale, GraduationCap } from "lucide-react";
+import { Wrench, Satellite, Sprout, Radio, Gauge, Navigation, Package, GraduationCap } from "lucide-react";
 
 const services = [
   { icon: Wrench, title: "Assistência Técnica Especializada", desc: "Manutenção e reparo de tratores, colheitadeiras, pulverizadores, plantadeiras e implementos agrícolas em geral.", isTopcon: false },
@@ -7,7 +7,7 @@ const services = [
   { icon: Radio, title: "Sinais de Correção GNSS", desc: "Comercialização e suporte de sinais RTK/NTRIP: Topcon e outras marcas. Sinal estável para operações sem pausa.", isTopcon: false },
   { icon: Gauge, title: "Equipamentos Topcon — Concessionária Oficial", desc: "Como concessionária Topcon, oferecemos o portfólio completo da marca: monitores, receptores, pilotos elétricos e hidráulicos, com especialidade na integração à linha Massey Ferguson. Tecnologia mundial com suporte técnico local.", isTopcon: true },
   { icon: Navigation, title: "Direção Automática e Autoguiagem", desc: "Instalação de sistemas hidráulicos e elétricos. Redução de sobreposições e economia de insumos.", isTopcon: false },
-  { icon: Scale, title: "Soluções para Alimentação Animal", desc: "Células de pesagem e monitores de balança para controle preciso da gestão do rebanho.", isTopcon: false },
+  { icon: Package, title: "Soluções para Alimentação Animal", desc: "Células de pesagem e monitores de balança para controle preciso da gestão do rebanho.", isTopcon: false },
   { icon: GraduationCap, title: "Suporte e Treinamento Técnico", desc: "Treinamento para que o operador domine cada tecnologia implantada e maximize os resultados.", isTopcon: false },
 ];
 
